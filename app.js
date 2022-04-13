@@ -9,5 +9,7 @@ function positions (firstPlace, secondPlace, lastPlace) {
         podio[2] = secondPlace;
         podio[1] = lastPlace;
     }
-    return console.log(`1-Colocado: ${podio, [0]}, Segundo colocado ${podio, [1]}, Ultimo colocado ${podio, [2]}`)
+    return console.log(`1-Colocado: ${podio[0]}, 2-Colocado ${podio[1]}, 3-Colocado ${podio[2]}`)
 };
+
+positions("Rafael", "Daniel", "Manoel");
